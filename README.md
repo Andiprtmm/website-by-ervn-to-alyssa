@@ -120,7 +120,7 @@
 
       // ganti kata-kata kalo ditolak
       function generateMessage(count) {
-        const messages = ["no", "kiyutt?", "klik yes?", "yes woi kiyutt", "huftt...", "eror wkwk"];
+        const messages = ["no", "kiyutt!!", "klik yes!!", "yes woi kiyutt!!", "huftt...", "eror wkwk"];
 
         const messageIndex = Math.min(count, messages.length - 1);
         return messages[messageIndex];
